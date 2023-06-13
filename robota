@@ -153,3 +153,34 @@ int main()
 
 	return 0;
 }
+
+	/*DZ_1*/
+	string symboll;
+
+	cout << "Введіть символ: ";
+	cin >> symboll;
+
+	if (symboll == "!" or "?" or "," or ".")
+		cout << "Пунктуація" << endl;
+
+	if (symboll == "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9" or "0")
+		cout << "Цифра" << endl;
+
+	if (symboll == "й" or "ц" or "у" or "к" or "е" or "н" or "г" or "ш" or "щ" or 
+		"ф" or "х" or "ї" or "і" or "в" or "а" or "п" or "р" or "о" or "л" or 
+		"д" or "ж" or "є" or "я" or "ч" or "с" or "м" or "и" or "т" or "ь" or 
+		"б" or "ю")
+		cout << "Літера" << endl;
+
+	if (symboll == "(" or ")" or "{" or "}" "[" or "]")
+		cout << "Дужки" << endl;
+
+	if (symboll == "@" or "#" or "$" or "%" "^" or "&" or "-" or "+" or "=" 
+		or "_" or ":" or ";" or "№" or "<" or ">" or "/" or "|")
+		cout << "Інше" << endl;
+	else {
+		cout << "Введіть один символ!" << endl; 
+	}
+
+	return 0;
+}
