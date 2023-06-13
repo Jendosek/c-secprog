@@ -1,0 +1,155 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+
+int main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	/*TASK_1
+	int number;
+
+	cout << "Введіть число: ";
+	cin >> number;
+
+	if (number % 2 == 0) {
+		cout << "Число парне" << endl;
+	}
+	else {
+		cout << "Число не парне" << endl;
+	}*/
+
+	/*TASK_2
+	int number1;
+	int number2;
+
+	cout << "Введіть число: ";
+	cin >> number1;
+	cout << "Введіть число: ";
+	cin >> number2;
+
+	if (number1 < number2) {
+		cout << "Найменше число: " << number1;
+	}
+	else
+	{
+		cout << "Найменше число: " << number2;
+	}*/
+
+	/*TASK_3
+	int number1;
+
+	cout << "Введіть число: ";
+	cin >> number1;
+	if (number1 > 0) {
+		cout << "Число додатнє" << endl;
+	}
+	if (number1 == 0) {
+		cout << "Число рівне 0" << endl;
+	}
+	if (number1 < 0) {
+		cout << "Число відємне" << endl;
+	}*/
+
+	/*TASK_4
+	int number1;
+	int number2;
+
+	cout << "Введіть число: ";
+	cin >> number1;
+	cout << "Введіть число: ";
+	cin >> number2;
+
+	if (number1 < number2) {
+		cout << number1 << " " << number2 << endl;
+	}
+	if (number1 > number2) {
+		cout << number2 << " " << number1 << endl;
+	}
+	if (number1 == number2) {
+		cout << "Числа рівні" << endl;
+	}*/
+
+	/*TASK_5
+	int mark1;
+	int mark2;
+	int mark3;
+	int mark4;
+	int mark5;
+
+	cout << "Введіть оцінку: ";
+	cin >> mark1;
+	cout << "Введіть оцінку: ";
+	cin >> mark2;
+	cout << "Введіть оцінку: ";
+	cin >> mark3;
+	cout << "Введіть оцінку: ";
+	cin >> mark4;
+	cout << "Введіть оцінку: ";
+	cin >> mark5;
+
+	int c = (mark1 + mark2 + mark3 + mark4 + mark5) / 5;
+
+	if (c > 4) {
+		cout << c << endl;
+		cout << "Студент допущений!" << endl;
+	}
+	else {
+		cout << c << endl;
+		cout << "Студент не допущений!!!" << endl;
+	}*/
+
+	/*TASK_6
+	int number;
+
+	cout << "Введіть число: ";
+	cin >> number;
+
+	if (number % 2 == 0) {
+		number = number * 3;
+		cout << number << endl;
+	}
+	else {
+		number = number / 2;
+		cout << number << endl;
+	}*/
+
+	/*TASK_7*/
+	int number1;
+	int number2;
+	string a;
+
+	cout << "Введіть число: ";
+	cin >> number1;
+	cout << "Введіть число: ";
+	cin >> number2;
+	cout << "Введіть дію яку хочете виконати: ";
+	cin >> a;
+
+	if (a == "+") {
+		int result;
+		result = number1 + number2;
+		cout << "Результат: ";
+		cout << result;
+	}
+	if (a == "-") {
+		int result;
+		result = number1 - number2;
+		cout << "Результат: ";
+		cout << result;
+	}
+	if (a == "*") {
+		int result;
+		result = number1 * number2;
+		cout << "Результат: ";
+		cout << result;
+	}
+	if (a == "/") {
+		int result;
+		result = number1 / number2;
+		cout << "Результат: ";
+		cout << result;
+	}
+
+	return 0;
+}
